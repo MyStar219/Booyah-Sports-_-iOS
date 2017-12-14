@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		975BB9991F9F6AC5009FD739 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975BB9981F9F6AC5009FD739 /* SplashViewController.swift */; };
+		97B1D0B51F9F19DC009C8716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B1D0B41F9F19DC009C8716 /* AppDelegate.swift */; };
+		97B1D0B71F9F19DC009C8716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B1D0B61F9F19DC009C8716 /* ViewController.swift */; };
+		97B1D0BA1F9F19DC009C8716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B1D0B81F9F19DC009C8716 /* Main.storyboard */; };
+		97B1D0BC1F9F19DC009C8716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B1D0BB1F9F19DC009C8716 /* Assets.xcassets */; };
+		97B1D0BF1F9F19DC009C8716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B1D0BD1F9F19DC009C8716 /* LaunchScreen.storyboard */; };
+		97F927BA1FA7971500CB654D /* app-icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B31FA7971400CB654D /* app-icon-58.png */; };
+		97F927BB1FA7971500CB654D /* app-icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B41FA7971400CB654D /* app-icon-40.png */; };
+		97F927BC1FA7971500CB654D /* app-icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B51FA7971400CB654D /* app-icon-180.png */; };
+		97F927BD1FA7971500CB654D /* app-icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B61FA7971400CB654D /* app-icon-80.png */; };
+		97F927BE1FA7971500CB654D /* app-icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B71FA7971400CB654D /* app-icon-60.png */; };
+		97F927BF1FA7971500CB654D /* app-icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B81FA7971400CB654D /* app-icon-120.png */; };
+		97F927C01FA7971500CB654D /* app-icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 97F927B91FA7971400CB654D /* app-icon-87.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		975BB9981F9F6AC5009FD739 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		97B1D0B11F9F19DC009C8716 /* Booyah Sports.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Booyah Sports.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B1D0B41F9F19DC009C8716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97B1D0B61F9F19DC009C8716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97B1D0B91F9F19DC009C8716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97B1D0BB1F9F19DC009C8716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97B1D0BE1F9F19DC009C8716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97B1D0C01F9F19DC009C8716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F927B31FA7971400CB654D /* app-icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-58.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-58.png"; sourceTree = SOURCE_ROOT; };
+		97F927B41FA7971400CB654D /* app-icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-40.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-40.png"; sourceTree = SOURCE_ROOT; };
+		97F927B51FA7971400CB654D /* app-icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-180.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-180.png"; sourceTree = SOURCE_ROOT; };
+		97F927B61FA7971400CB654D /* app-icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-80.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-80.png"; sourceTree = SOURCE_ROOT; };
+		97F927B71FA7971400CB654D /* app-icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-60.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-60.png"; sourceTree = SOURCE_ROOT; };
+		97F927B81FA7971400CB654D /* app-icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-120.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-120.png"; sourceTree = SOURCE_ROOT; };
+		97F927B91FA7971400CB654D /* app-icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "app-icon-87.png"; path = "Booyah Sports/Assets.xcassets/AppIcon.appiconset/app-icon-87.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B1D0AE1F9F19DC009C8716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97B1D0A81F9F19DC009C8716 = {
+			isa = PBXGroup;
+			children = (
+				97B1D0B31F9F19DC009C8716 /* Booyah Sports */,
+				97B1D0B21F9F19DC009C8716 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B1D0B21F9F19DC009C8716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B1D0B11F9F19DC009C8716 /* Booyah Sports.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B1D0B31F9F19DC009C8716 /* Booyah Sports */ = {
+			isa = PBXGroup;
+			children = (
+				97F927B21FA796FA00CB654D /* images */,
+				97B1D0B41F9F19DC009C8716 /* AppDelegate.swift */,
+				97B1D0B61F9F19DC009C8716 /* ViewController.swift */,
+				975BB9981F9F6AC5009FD739 /* SplashViewController.swift */,
+				97B1D0B81F9F19DC009C8716 /* Main.storyboard */,
+				97B1D0BB1F9F19DC009C8716 /* Assets.xcassets */,
+				97B1D0BD1F9F19DC009C8716 /* LaunchScreen.storyboard */,
+				97B1D0C01F9F19DC009C8716 /* Info.plist */,
+			);
+			path = "Booyah Sports";
+			sourceTree = "<group>";
+		};
+		97F927B21FA796FA00CB654D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				97F927B41FA7971400CB654D /* app-icon-40.png */,
+				97F927B31FA7971400CB654D /* app-icon-58.png */,
+				97F927B71FA7971400CB654D /* app-icon-60.png */,
+				97F927B61FA7971400CB654D /* app-icon-80.png */,
+				97F927B91FA7971400CB654D /* app-icon-87.png */,
+				97F927B81FA7971400CB654D /* app-icon-120.png */,
+				97F927B51FA7971400CB654D /* app-icon-180.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B1D0B01F9F19DC009C8716 /* Booyah Sports */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B1D0C31F9F19DC009C8716 /* Build configuration list for PBXNativeTarget "Booyah Sports" */;
+			buildPhases = (
+				97B1D0AD1F9F19DC009C8716 /* Sources */,
+				97B1D0AE1F9F19DC009C8716 /* Frameworks */,
+				97B1D0AF1F9F19DC009C8716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Booyah Sports";
+			productName = "Booyah Sports";
+			productReference = 97B1D0B11F9F19DC009C8716 /* Booyah Sports.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B1D0A91F9F19DC009C8716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Mobile Developer";
+				TargetAttributes = {
+					97B1D0B01F9F19DC009C8716 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 97B1D0AC1F9F19DC009C8716 /* Build configuration list for PBXProject "Booyah Sports" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97B1D0A81F9F19DC009C8716;
+			productRefGroup = 97B1D0B21F9F19DC009C8716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B1D0B01F9F19DC009C8716 /* Booyah Sports */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B1D0AF1F9F19DC009C8716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F927BD1FA7971500CB654D /* app-icon-80.png in Resources */,
+				97B1D0BF1F9F19DC009C8716 /* LaunchScreen.storyboard in Resources */,
+				97B1D0BC1F9F19DC009C8716 /* Assets.xcassets in Resources */,
+				97B1D0BA1F9F19DC009C8716 /* Main.storyboard in Resources */,
+				97F927BF1FA7971500CB654D /* app-icon-120.png in Resources */,
+				97F927BE1FA7971500CB654D /* app-icon-60.png in Resources */,
+				97F927BA1FA7971500CB654D /* app-icon-58.png in Resources */,
+				97F927BC1FA7971500CB654D /* app-icon-180.png in Resources */,
+				97F927BB1FA7971500CB654D /* app-icon-40.png in Resources */,
+				97F927C01FA7971500CB654D /* app-icon-87.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B1D0AD1F9F19DC009C8716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				975BB9991F9F6AC5009FD739 /* SplashViewController.swift in Sources */,
+				97B1D0B71F9F19DC009C8716 /* ViewController.swift in Sources */,
+				97B1D0B51F9F19DC009C8716 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97B1D0B81F9F19DC009C8716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B1D0B91F9F19DC009C8716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		97B1D0BD1F9F19DC009C8716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B1D0BE1F9F19DC009C8716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97B1D0C11F9F19DC009C8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97B1D0C21F9F19DC009C8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97B1D0C41F9F19DC009C8716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L4PRQP43PK;
+				INFOPLIST_FILE = "Booyah Sports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nitish.hunal.Booyah-Sports.iosAppID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2e833fa-d4cb-454b-b8a8-04be50eeeeae";
+				PROVISIONING_PROFILE_SPECIFIER = "BooyahSports iOS App Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B1D0C51F9F19DC009C8716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = L4PRQP43PK;
+				INFOPLIST_FILE = "Booyah Sports/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nitish.hunal.Booyah-Sports.iosAppID";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e2e833fa-d4cb-454b-b8a8-04be50eeeeae";
+				PROVISIONING_PROFILE_SPECIFIER = "BooyahSports iOS App Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B1D0AC1F9F19DC009C8716 /* Build configuration list for PBXProject "Booyah Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B1D0C11F9F19DC009C8716 /* Debug */,
+				97B1D0C21F9F19DC009C8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B1D0C31F9F19DC009C8716 /* Build configuration list for PBXNativeTarget "Booyah Sports" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B1D0C41F9F19DC009C8716 /* Debug */,
+				97B1D0C51F9F19DC009C8716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B1D0A91F9F19DC009C8716 /* Project object */;
+}

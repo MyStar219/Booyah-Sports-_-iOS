@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OZb-gH-6Yc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash View Controller-->
+        <scene sceneID="voA-0P-eXF">
+            <objects>
+                <viewController storyboardIdentifier="SplashViewController" id="R0P-8I-nVt" customClass="SplashViewController" customModule="Booyah_Sports" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FBX-1G-K4j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="3I7-yO-CeS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3I7-yO-CeS" firstAttribute="leading" secondItem="N2n-uf-WOE" secondAttribute="leading" id="6E0-6f-sdO"/>
+                            <constraint firstItem="3I7-yO-CeS" firstAttribute="top" secondItem="FBX-1G-K4j" secondAttribute="top" id="6ox-ye-t7o"/>
+                            <constraint firstItem="3I7-yO-CeS" firstAttribute="bottom" secondItem="N2n-uf-WOE" secondAttribute="bottom" id="rvq-mU-Flr"/>
+                            <constraint firstItem="3I7-yO-CeS" firstAttribute="trailing" secondItem="N2n-uf-WOE" secondAttribute="trailing" id="tfz-fp-DLU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N2n-uf-WOE"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="edb-vJ-fum"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" id="KzD-sI-YEw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1er-65-ML9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="332" y="109"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="Booyah_Sports" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mMD-Th-y7P">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mMD-Th-y7P" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AcA-5O-KLj"/>
+                            <constraint firstItem="mMD-Th-y7P" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="f4Y-Ge-63p"/>
+                            <constraint firstItem="mMD-Th-y7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hIP-rc-C87"/>
+                            <constraint firstItem="mMD-Th-y7P" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oib-QJ-NXU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="y2h-7o-hQ3"/>
+                    <connections>
+                        <outlet property="webView" destination="mMD-Th-y7P" id="83O-4Z-GNy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047" y="109"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="59G-Hj-18F">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="OZb-gH-6Yc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vdG-tB-4YM">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="R0P-8I-nVt" kind="relationship" relationship="rootViewController" id="FcY-gq-5RI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="knn-Os-sDl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-370" y="110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash" width="1242" height="2208"/>
+    </resources>
+</document>
